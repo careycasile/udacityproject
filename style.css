@@ -1,0 +1,36 @@
+* {
+   outline: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: arial;
+} 
+
+.title {
+    background-color: #33BEBE;
+    color: white;
+    width: 90%;
+    margin: 2em 1em .2em .2em;
+    padding: .5em .5em .2em .2em;
+}
+
+.screenshot {
+    padding: .5em;
+    margin: 0;
+
+}
+
+.description {
+    padding:.7em;
+    color: #7C8B88;
+}
+
+.app {
+    display: flex;   
+}
