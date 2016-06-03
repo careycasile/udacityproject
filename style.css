@@ -1,6 +1,4 @@
-* {
-   outline: 1px solid red !important;
-}
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -23,14 +21,17 @@
 .screenshot {
     padding: .5em;
     margin: 0;
-
+    float: left;
 }
 
 .description {
     padding:.7em;
     color: #7C8B88;
+    float:left;
+    max-width: 50%;
+    min-width: 100px;
 }
 
 .app {
-    display: flex;   
+    display: inline-block;   
 }
